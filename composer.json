@@ -1,0 +1,35 @@
+
+{
+  "name": "ramzzzes/elaquent",
+  "type": "library",
+  "description": "Laravel Eloquent like ActiveRecord for Elasticsearch",
+  "keywords": [
+    "elasticsearch",
+    "eloquent",
+    "laravel"
+  ],
+  "homepage": "https://github.com/ramzzzes/elaquent",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "George Ramazashvili",
+      "email": "ramaza.giorgi@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "^6.2.1",
+    "elasticsearch/elasticsearch": "~7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Elaquent\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
+
